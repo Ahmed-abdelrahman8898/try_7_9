@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: runner.Test
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 24.232 s <<< FAILURE! - in runner.Test
+Maker starts a game(Guess the word #1)  Time elapsed: 13.799 s  <<< ERROR!
+java.lang.ArithmeticException: / by zero
+

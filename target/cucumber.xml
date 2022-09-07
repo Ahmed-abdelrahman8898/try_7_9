@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="55.362">
+    <testcase classname="Guess the word" name="Maker starts a game" time="15.288">
+        <failure message="/ by zero" type="java.lang.ArithmeticException"><![CDATA[When the Maker starts a game................................................passed
+Then the Maker waits for a Breaker to join..................................failed
+
+StackTrace:
+java.lang.ArithmeticException: / by zero
+	at StepDefinitions.first_step.the_maker_waits_for_a_breaker_to_join(first_step.java:32)
+	at ✽.the Maker waits for a Breaker to join(file:///C:/Users/Ahmed%20Alwany/eclipse-workspace/mampo/src/test/java/features/first.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="Guess the word" name="eating" time="13.738">
+        <system-out><![CDATA[Given there are 12 cucumbers................................................passed
+When I eat 5 cucumbers......................................................passed
+Then I should have 7 cucumbers..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Guess the word" name="eating_2" time="13.021">
+        <system-out><![CDATA[Given there are 20 cucumbers................................................passed
+When I eat 5 cucumbers......................................................passed
+Then I should have 15 cucumbers.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Guess the word" name="Maker starts a game" time="13.152">
+        <system-out><![CDATA[When i am second............................................................passed
+Then still second...........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
