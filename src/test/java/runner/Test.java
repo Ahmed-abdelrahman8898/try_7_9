@@ -36,7 +36,7 @@ public class Test {
       String path =System.getProperty("user.dir") + "/target/cucumber.json";
       jsonFiles.add(path);
 
-      utilities.Utilities.generateReport("Test Report",jsonFiles);
+      //utilities.Utilities.generateReport("Test Report",jsonFiles);
     }
  
  
